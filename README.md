@@ -14,11 +14,12 @@
 │  └─ 📁 `scripts/`  
 │     ├─ 📄 `extract.py`  
 │     ├─ 📄 `transform.py`  
-│     └─ 📄 `dashboard.py`  
-|     └─ 📄 `test_transform.py/`
+│     ├─ 📄 `dashboard.py`  
+│     └─ 📄 `test_transform.py`  
 ├─ 📄 `run.sh`  
-└─ 📄 `Makefile`
+├─ 📄 `Makefile`  
 └─ 📄 `README.md`
+
 
 
 ## Требования
