@@ -84,7 +84,8 @@ ORDER BY posts_cnt DESC;
    make test
    ```
 ### Линтер
-    ```bash
-    make lint-ruff
-    ```
+   ```bash
+   make lin-ruff
+   ```
+
 
