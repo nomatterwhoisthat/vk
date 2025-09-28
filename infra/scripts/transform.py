@@ -33,6 +33,12 @@ def transform():
     conn.close()
     print(f"[{datetime.now()}] Таблица top_users_by_posts обновлена (время РФ)")
 
+def aggregate_posts(posts):
+    counter = {}
+    for p in posts:
+        counter[p["userId"]] = counter.get(p["userId"], 0) + 1
+    return counter
+
 
 if __name__ == "__main__":
     transform()

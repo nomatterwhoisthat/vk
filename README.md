@@ -15,7 +15,9 @@
 │     ├─ 📄 `extract.py`  
 │     ├─ 📄 `transform.py`  
 │     └─ 📄 `dashboard.py`  
+|     └─ 📄 `test_transform.py`
 ├─ 📄 `run.sh`  
+└─ 📄 `Makefile`
 └─ 📄 `README.md`
 
 
@@ -75,3 +77,8 @@ SELECT user_id, posts_cnt, calculated_at
 FROM top_users_by_posts
 ORDER BY posts_cnt DESC;
 ```
+
+### Запуск теста
+   ```bash
+   make test
+   ```
